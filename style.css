@@ -1,0 +1,270 @@
+wrapper/** {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html, body {
+  overflow-x: hidden;
+}*/
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*html,
+body {
+  height:100%;
+  margin: 0;
+}*/
+/*body {
+  font-family:sans-serif;
+  font-size:12px;
+  font-weight:normal;
+}*/
+#wrapper {
+  max-width: 800px;
+ 
+  border: 1px solid black;
+  margin: auto;
+  padding: 25px;
+}
+#chart {
+  position:relative;
+  max-height: 400px;
+  max-width: 600px;
+}
+#chartjs-legend {
+/*  position:absolute;*/
+  width:100%;
+  bottom:10%;
+  margin: 20px 0;
+  display: flex;
+}
+#chartjs-legend> div {
+  width: 25%;
+}
+.boxer {
+    width: 26px;
+    height: 26px;
+}
+.how-much {
+  display: flex;justify-content: 
+} 
+.how-much span {
+  text-decoration: underline;
+}
+.how-much a {
+  text-decoration: underline;
+}
+.top-line {
+  display: flex;
+  justify-content: space-between;
+}
+.top-line> div {
+ min-width: 220px;
+ height: 30px;
+}
+.bot-line {
+  display: flex;
+  justify-content: space-between;
+}
+.bot-line> div {
+ min-width: 220px;
+}
+
+/*custom label*/
+
+.static-imputs input[type=checkbox] {
+    display: none;
+}
+.static-imputs .point1 label, .point0 label, .point2 label, .point3 label, .point4 label, .point5 label, .point6 label, .point7 label, .point8 label {
+  position: relative;
+  padding: 7px 11px;
+  overflow: visible;
+}
+.static-imputs .point1 label:before, .point0 label:before, .point2 label:before, .point3 label:before, .point4 label:before, .point5 label:before, .point6 label:before, .point7 label:before, .point8 label:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 19px;
+    height: 19px;
+    /*border: 1px solid #bababa;*/
+    border-radius: 3px;
+}
+.static-imputs .point1 label:after, .point0 label:after, .point2 label:after, .point3 label:after, .point4 label:after, .point5 label:after, .point6 label:after, .point7 label:after, .point8 label:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #bababa;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+
+.static-imputs input#box0[type=checkbox]:checked + label:before {
+    content: "";
+    background: url('img/3.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box1[type=checkbox]:checked + label:before {
+    content: "";
+    background: url('img/2.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box2[type=checkbox]:checked + label:before {
+  content: "";
+    background: url('img/1.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box3[type=checkbox]:checked + label:before {
+  content: "";
+    background: url('img/4.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box4[type=checkbox]:checked + label:before {
+  content: "";
+    background: url('img/5.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box5[type=checkbox]:checked + label:before {
+  content: "";
+    background: url('img/6.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box6[type=checkbox]:checked + label:before {
+  content: "";
+    background: url('img/7.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box7[type=checkbox]:checked + label:before {
+  content: "";
+    background: url('img/8.png') no-repeat;
+    background-position: 2px 2px;
+}
+.static-imputs input#box8[type=checkbox]:checked + label:before {
+  content: "";
+    background: url('img/8.png') no-repeat;
+    background-position: 2px 2px;
+}
+.toppest-single-all {
+  height: 45px;
+}
+
+/*buble*/
+.bubble_div {
+  /*border: 1px solid black;*/
+  position: relative;min-height: 600px;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.noselect1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+html,
+body {
+  height:100%;
+  margin: 0;
+}
+body {
+  font-family:sans-serif;
+  font-size:12px;
+  font-weight:normal;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  display: inline-table;
+}
+
+#chart1 {
+/*  position:absolute;
+  top: 0;
+  right: 0;*/
+  width: 275px;
+  /*height: 400px;*/
+  /*top:15%;*/
+ /* margin:auto;*/
+}
+#chartjs-legend1 {
+/*  position: absolute;
+  top: 0;
+  left: 0;*/
+  /*position:absolute;*/
+/*  width:100%;
+  bottom:10%;*/
+}
+#chartjs-legend1 li {
+  cursor:pointer;
+  margin: 10px 4px;
+}
+#chartjs-legend1 li span {
+  position:relative;
+  padding: 3px 10px;
+  border-radius: 4px;
+  color:white;
+  z-index:2;
+  margin-right: 5px;
+}
+
+
+.bubble_div {
+  display: flex;
+  justify-content: space-between;
+}
+.bubble_div_bubble_div p {
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+.central-numbers ul {
+
+}.central-numbers li {
+    text-align: center;
+    padding: 0 20px 20px;
+}
+.central-numbers li:first-child {
+  padding-top: 5px;
+}
+.into-chart1 {
+  padding: 0;
+}
+
+
+
+#chartjs-tooltip {
+     opacity: 0;
+     position: absolute;
+     background: #fff;
+     color: black;
+     padding: 3px;
+     border-radius: 3px;
+     -webkit-transition: all .1s ease;
+     transition: all .1s ease;
+/*     pointer-events: none;*/
+/*    -webkit-transform: translate(0, 50%);
+     transform: translate(0, 0);*/
+
+transform: translate(-50%, -150%);
+    -moz-box-shadow: 0px 6px 23px #000000;
+    -webkit-box-shadow: 0px 6px 23px #000000;
+    box-shadow: 0px 6px 23px #000000;
+ }
